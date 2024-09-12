@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/daftarUangMasukFragment">
+
+    <fragment
+        android:id="@+id/inputUangMasukFragment"
+        android:name="com.example.androidtestnutapos.ui.inputuangmasuk.InputUangMasukFragment"
+        android:label="InputUangMasukFragment" >
+        <action
+            android:id="@+id/action_inputUangMasukFragment_to_daftarUangMasukFragment"
+            app:destination="@id/daftarUangMasukFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/daftarUangMasukFragment"
+        android:name="com.example.androidtestnutapos.ui.daftaruangmasuk.DaftarUangMasukFragment"
+        android:label="DaftarUangMasukFragment" >
+        <action
+            android:id="@+id/action_daftarUangMasukFragment_to_inputUangMasukFragment"
+            app:destination="@id/inputUangMasukFragment" />
+    </fragment>
+</navigation>

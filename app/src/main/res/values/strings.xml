@@ -1,0 +1,39 @@
+<resources>
+
+    <string-array name="spinner_items">
+        <item>Pendapatan Lain</item>
+        <item>Non Pendapatan</item>
+    </string-array>
+
+    <string name="app_name">AndroidTestNutaPos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="camera">Kamera</string>
+    <string name="gallery">Galeri</string>
+    <string name="back_button">Kembali</string>
+    <string name="uang_masuk">Uang Masuk</string>
+    <string name="simpan">Simpan</string>
+    <string name="masuk_ke">Masuk ke</string>
+    <string name="dari">Dari</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="jenis">Jenis</string>
+    <string name="lebih_tahu">Lebih Tahu</string>
+    <string name="foto">Foto/ Bukti Transfer/ Nota/ Kwitansi</string>
+    <string name="ubah">Ubah</string>
+    <string name="hapus">Hapus</string>
+    <string name="pendapatan_lain">Pendapatan Lain</string>
+    <string name="contoh_pendapatan_lain">Uang yang masuk ke laci kasir/ rekening yang\nmenambah profit/ laba bisnis kamu</string>
+    <string name="contoh">Contoh</string>
+    <string name="contoh_x_pendapatan_lain">Menjual kemasan kardus ke loak</string>
+    <string name="non_pendapatan">Non Pendapatan</string>
+    <string name="contoh_non_pendapatan">Uang yang masuk ke laci kasir/ rekening yang\nTIDAK menambah profit/ laba bisnis kamu</string>
+    <string name="contoh_x_non_pendapatan">Modal awal untuk kembalian ke pelanggan</string>
+    <string name="buat_transaksi">Buat Transaksi Uang Masuk</string>
+    <string name="date">25 Maret 2022</string>
+    <string name="example_date">20 Maret 2022 - 25 Maret 2022</string>
+    <string name="example_total">Rp 200000</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="time">Jam</string>
+</resources>
